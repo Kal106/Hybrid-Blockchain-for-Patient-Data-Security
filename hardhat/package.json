@@ -1,0 +1,16 @@
+{
+  "name": "hardhat-project",
+  "version": "1.0.0",
+  "scripts": {
+    "node": "npx hardhat node",
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost",
+    "watch": "npx hardhat run scripts/watchBlocks.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.6"
+  },
+  "dependencies": {
+    "ethers": "^6.13.1"
+  }
+}
